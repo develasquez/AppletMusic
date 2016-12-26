@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+	<title> Applet Music</title>	
     <meta charset='utf-8' />
   
     <meta name="HandheldFriendly" content="True">
@@ -13,7 +14,7 @@
   </head>
 
   <body>
-    <audio controls id="player" class="hidden"></audio>
+    
     <nav class="leftMenu z-d1 background_control">
       <ul class="list advanced ">
         <a href="javascript:void(0)"  onClick="monomer.pageShow('#busqueda')">
@@ -112,6 +113,7 @@
           </div>
           <div class="footerContent grey playerFull ">
             <img src="" alt="" class="aspect_4_3 caratula">
+            <audio controls id="player"></audio>
           </div>
           <div class="footerFooter white button-bar">
             <div class="dvYoutuve"><i class="icon-youtube-play inYoutube hover-red"></i></div><!--
@@ -179,6 +181,7 @@
     <script src="js/vendor/pointerevents.js" type="text/javascript"></script>
 
     <script src="js/vendor/monomer.js" type="text/javascript"></script>
+    <script src="js/services.js" type="text/javascript"></script>
     <script src="js/main.js" type="text/javascript"></script>
     <script src="https://apis.google.com/js/client.js?onload=init"></script>
     
